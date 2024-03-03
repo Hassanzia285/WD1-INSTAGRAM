@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Timeline</title>
+<link rel="stylesheet" href="style.css">
+<style>
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-header .username {
+    font-weight: bold;
+}
+.post img {
+    max-width: 100%;
+}
+.post-content {
+    padding: 10px;
+    
+}
+.post-footer {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+/* stories */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.stories-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.story {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.story img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.user-info {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.time {
+    margin-left: 5px;
+}
+/* navbar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 30px;
+}
+
+.search input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.jpg" alt="Instagram">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Notifications</a>
+            <a href="#">Profile</a>
+        </div>
+    </nav>
+    <div class="stories-container">
+        <div class="story">
+            <img src="1.jpg" alt="Story Image">
+            <div class="user-info">
+            
+                
+            </div>
+        </div>
+        <!-- More stories go here -->  
+        <div class="story">
+                <img src="2.jpg" alt="Story Image">
+                <div class="user-info">
+                    
+                    
+                </div>
+            </div>
+             <!-- More stories go here -->  
+             <div class="story">
+                <img src="3.jpg" alt="Story Image">
+                <div class="user-info">
+                    
+                    
+                </div>
+            </div>
+ <!-- More stories go here -->  
+ <div class="story">
+    <img src="4.jpg" alt="Story Image">
+    <div class="user-info">
+        
+        
+    </div>
+</div>
+ <!-- More stories go here -->  
+ <div class="story">
+    <img src="5.jpg" alt="Story Image">
+    <div class="user-info">
+        
+        
+    </div>
+</div>
+ <!-- More stories go here -->  
+ <div class="story">
+    <img src="6.jpg" alt="Story Image">
+    <div class="user-info">
+        
+        
+    </div>
+</div>
+<!-- More stories go here -->  
+<div class="story">
+    <img src="7.jpg" alt="Story Image">
+    <div class="user-info">
+        
+        
+    </div>
+</div>
+ </div>
+ <!-- timeline -->
+    <div class="container">
+        <div class="post">
+            <div class="post-header">
+                <img src="car pic.jpg" alt="Profile Picture">
+                <div class="username">username</div>
+            </div>
+            <div class="post-content">
+                <img src="car pic.jpg" alt="Post Image">
+            </div>
+            <div class="post-footer">
+                <button>Like</button>
+                <button>Comment</button>
+                <button>Share</button>
+            </div>
+        </div>
+        <!-- More posts can be added here -->
+        <div class="post">
+            <div class="post-header">
+                <img src="download.jpg" alt="Profile Picture">
+                <div class="username">username</div>
+            </div>
+            <div class="post-content">
+                <img src="download.jpg" alt="Post Image">
+            </div>
+            <div class="post-footer">
+                <button>Like</button>
+                <button>Comment</button>
+                <button>Share</button>
+            </div>
+        </div>
+          <!-- More posts can be added here -->
+          <div class="post">
+            <div class="post-header">
+                <img src="gun.jpg" alt="Profile Picture">
+                <div class="username">username</div>
+            </div>
+            <div class="post-content">
+                <img src="gun.jpg" alt="Post Image">
+            </div>
+            <div class="post-footer">
+                <button>Like</button>
+                <button>Comment</button>
+                <button>Share</button>
+            </div>
+        </div>
+          <!-- More posts can be added here -->
+          <div class="post">
+            <div class="post-header">
+                <img src="marvel.jpeg" alt="Profile Picture">
+                <div class="username">username</div>
+            </div>
+            <div class="post-content">
+                <img src="marvel.jpeg" alt="Post Image">
+            </div>
+            <div class="post-footer">
+                <button>Like</button>
+                <button>Comment</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
